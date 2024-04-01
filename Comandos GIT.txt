@@ -1,0 +1,44 @@
+Comandos Gui Bash
+
+pwd 									-> mostra o diretorio
+ls 										-> mostra conteudo da pasta
+ls -a 									-> mostra os arquivos ocultos
+clear 									-> limpa a tela
+git status 								-> verifica status da pasta
+
+git add "nome do arquivo" 				-> add o arquivo
+git add . 								-> adiciona todos os arquivos
+
+git log 								-> verifica Logs e busca os Codigos de Commit
+
+git reset 								-> desfaz o add, tira do staged
+git reset "cod commit"  				-> volta para o commit desejado.
+
+
+
+git commit -m "Desc Commit" 			-> faz o commit
+
+Criar branches
+
+git branch 								-> Verifica branch
+git checkout -b "name"					-> Criar a branch
+git checkout "name"						-> ir para a branch
+
+
+git merge "name"						-> Juntar as branch
+
+git branch -D "name"					-> Deletar a branch
+
+Configurar Git
+
+git config --global user.name "RafaelLeones"
+git config --global user.email "browlp@gmail.com"
+
+
+
+Configurando repositorio no GIT HUB
+
+git clone https://github.com/RafaelLeones/IMDB-DataSet.git
+
+
+git push origin main 					-> Mandar alterações para o remoto
