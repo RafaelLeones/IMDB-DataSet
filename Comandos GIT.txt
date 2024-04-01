@@ -41,4 +41,13 @@ Configurando repositorio no GIT HUB
 git clone https://github.com/RafaelLeones/IMDB-DataSet.git
 
 
+	git push origin "branch"
 git push origin main 					-> Mandar alterações para o remoto
+
+Pull Request 							-> realiza as alterações da branch para a main
+
+
+# Criando SSh
+
+ssh-keygen -t rsa						-> Gera o keygen
+cat ~/.ssh/id_rsa.pub					
